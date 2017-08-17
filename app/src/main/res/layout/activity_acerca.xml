@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.guill.petagram.ActivitySettings">
+
+    <include android:id="@+id/miActionBar"
+        layout="@layout/actionbar"
+        ></include>
+
+
+    <LinearLayout
+        android:layout_below="@+id/miActionBar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <com.mikhaellopez.circularimageview.CircularImageView
+            android:id="@+id/cvCircularView2"
+            android:layout_width="@dimen/circularview"
+            android:layout_height="@dimen/circularview"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="@dimen/activity_vertical_margin"
+            android:src="@drawable/ic_user2"
+            app:civ_shadow_color="@color/colorPrimaryDark"
+            app:civ_border_color="@color/colorAccent"
+            app:civ_border_width="@dimen/ancho_borde"
+            />
+
+        <TextView
+            android:id="@+id/tvBio"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/texto_bio1"
+            android:textSize="@dimen/nombre_contacto"
+            android:layout_marginLeft="@dimen/activity_horizontal_margin"
+            />
+
+        <TextView
+            android:id="@+id/tvBio2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/texto_bio2"
+            android:layout_marginLeft="@dimen/activity_horizontal_margin"
+            />
+
+        </LinearLayout>
+
+</RelativeLayout>

@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/cvMascota"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginBottom="@dimen/activity_vertical_margin"
+    card_view:cardCornerRadius="@dimen/corner_radius_cardview"
+
+
+    >
+
+    <!--  <include android:id="@+id/miActionBar"
+          layout="@layout/actionbar"
+          ></include> -->
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="@dimen/activity_horizontal_margin"
+        >
+
+        <ImageView
+            android:id="@+id/imgFoto"
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
+            android:src="@drawable/ic_collie"
+            />
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            >
+
+            <ImageButton
+                android:id="@+id/btnLike"
+                android:layout_width="@dimen/huesos_tam"
+                android:layout_height="@dimen/huesos_tam"
+                android:layout_alignParentLeft="true"
+                android:background="@drawable/ic_hueso"
+                />
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:layout_centerHorizontal="true"
+                >
+
+                <TextView
+                    android:id="@+id/tvNombreCV"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/pnombre"
+                    android:textSize="@dimen/nombre_cardview"
+                    android:textStyle="bold"
+                    android:textColor="@color/colorPrimaryDark"
+                    />
+
+            </LinearLayout>
+
+
+                <ImageButton
+                    android:id="@+id/btnHuesoLikes"
+                    android:layout_width="@dimen/huesos_tam"
+                    android:layout_height="@dimen/huesos_tam"
+                    android:background="@drawable/ic_hueso_likes"
+                    android:layout_alignParentRight="true"
+                    android:layout_marginRight="@dimen/activity_horizontal_margin"
+
+                    />
+
+                <TextView
+                    android:id="@+id/tvContLikes"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:layout_centerVertical="true"
+                    android:text="@string/numero_likes"
+                    android:textSize="20sp"
+                    android:textColor="@color/colorPrimaryDark"
+                    />
+
+
+
+        </RelativeLayout>
+
+    </LinearLayout>
+
+</android.support.v7.widget.CardView>

@@ -1,0 +1,29 @@
+<resources>
+    <string name="app_name">Petagram</string>
+    <string name="nombre">Coli</string>
+    <string name="pnombre">nombre</string>
+    <string name="menu_contactar">Contacto</string>
+    <string name="menu_acercade">Acerca de</string>
+    <string name="texto_about">About (aun no necesario implementarlo)</string>
+    <string name="texto_bio1">Guillermo Garcia</string>
+    <string name="texto_bio2">22 años. Estudiante de Ingenieria de Telecomunicaciones</string>
+    <string name="menu_edit">Edit</string>
+    <string name="menu_delete">Delete</string>
+    <string name="menu_view">View Image</string>
+    <string name="menu_view_detail">View Image Detail</string>
+    <string name="menu_refresh">Refresh</string>
+    <string name="numero_likes">0</string>
+    <string name="introducenombre">Introduce tu nombre</string>
+    <string name="email">Introduce tu email</string>
+    <string name="enviar_comentario">Enviar comentario</string>
+    <string name="mensaje">Introduce tu mensaje</string>
+    <string name="EMAIL">emailprueba@gmail.com</string>
+    <string name="PASSWORD">123456789</string>
+    <string name="contacto">Contacto</string>
+    <string name="perfil_nombre">Coli</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+
+</resources>

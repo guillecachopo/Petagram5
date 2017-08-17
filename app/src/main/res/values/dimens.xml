@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+    <dimen name="nombre_contacto">33dp</dimen>
+    <dimen name="tlf_contacto">20sp</dimen>
+    <dimen name="top">20dp</dimen>
+    <dimen name="left">10dp</dimen>
+    <dimen name="corner_radius_cardview">4dp</dimen>
+    <dimen name="nombre_cardview">20sp</dimen>
+    <dimen name="elevacion_actionbar">4dp</dimen>
+    <dimen name="elevacion_floating_action_button">6dp</dimen>
+    <dimen name="toolbar_huella_width">32dp</dimen>
+    <dimen name="toolbar_huella_height">32dp</dimen>
+    <dimen name="toolbar_taman_titulo">24sp</dimen>
+    <dimen name="toolbar_fav_width">40dp</dimen>
+    <dimen name="toolbar_fav_height">40dp</dimen>
+    <dimen name="toolbar_fav_titulo">24sp</dimen>
+    <dimen name="huesos_tam">38dp</dimen>
+    <dimen name="margen_layout_likes">170dp</dimen>
+    <dimen name="contacto_tam">20sp</dimen>
+    <dimen name="circularview">150dp</dimen>
+    <dimen name="ancho_borde">4dp</dimen>
+    <dimen name="tam_fab">312dp</dimen>
+    <dimen name="margen_nombre_perfil">10dp</dimen>
+    <dimen name="perfil_nombre">20sp</dimen>
+    <dimen name="perfil_barra">2dp</dimen>
+
+</resources>

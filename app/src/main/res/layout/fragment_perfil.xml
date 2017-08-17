@@ -1,0 +1,61 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.guill.petagram.fragment.PerfilFragment">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <com.mikhaellopez.circularimageview.CircularImageView
+            android:id="@+id/cvCircularView"
+            android:layout_width="@dimen/circularview"
+            android:layout_height="@dimen/circularview"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="@dimen/activity_vertical_margin"
+            android:src="@drawable/ic_collie4"
+            app:civ_shadow_color="@color/colorPrimaryDark"
+            app:civ_border_color="@color/colorAccent"
+            app:civ_border_width="@dimen/ancho_borde"
+            />
+
+        <TextView
+            android:id="@+id/tvFotoPerfil"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/cvCircularView"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="@dimen/margen_nombre_perfil"
+            android:text="@string/perfil_nombre"
+            android:textColor="@color/colorPrimaryDark"
+            android:textStyle="bold"
+            android:textSize="@dimen/perfil_nombre"
+            />
+
+        <View
+            android:id="@+id/vbarra"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/perfil_barra"
+            android:background="@color/colorAccent"
+            ></View>>
+
+        <android.support.v7.widget.RecyclerView
+            android:id="@+id/rvPerfil"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_below="@+id/vbarra"
+            ></android.support.v7.widget.RecyclerView>
+
+
+    </LinearLayout>
+
+
+
+
+
+
+
+</RelativeLayout>
